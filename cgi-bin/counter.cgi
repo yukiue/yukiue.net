@@ -2,7 +2,7 @@
 
 #!/usr/bin/perl
 
-open(FILE,"<count.dat");
+open(FILE,"<count.txt");
 $count = <FILE>;
 close(FILE);
 
