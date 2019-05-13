@@ -4,32 +4,30 @@
     <meta charset="utf-8" />
 
     <title>Hello</title>
-    <style>
-      body {
-        background-color: pink;
-      }
-      img {
-        width: 10%;
-        height: auto;
-      }
-      h1 {
-        color: #364e96; /*文字色*/
-        padding: 0.5em 0; /*上下の余白*/
-        border-top: solid 3px red; /*上線*/
-        border-bottom: solid 3px red; /*下線*/
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
 
   <body>
-    <h1>welcome to my webpage!</h1>
-    <strong>hello world!</strong><br />
-    <a href="https://github.com/yukiue">my github acount</a>
-    <img src="/onigiri_takana.png" alt="onigiri" /><br />
-    <script type="text/javascript">
-      <!--
-                                    document.write("最終更新日 :  " + document.lastModified);
-      // -->
-    </script>
+    <div class="wrapper">
+      <div class="container">
+        <header></header>
+        <nav></nav>
+        <main></main>
+        <h1>welcome to my webpage!</h1>
+        <strong>hello world!</strong><br />
+        <a href="https://github.com/yukiue">my github acount</a>
+        <img src="/onigiri_takana.png" alt="onigiri" /><br />
+        <script type="text/javascript">
+          <!--
+                                        document.write("最終更新日 :  " + document.lastModified);
+          // -->
+        </script>
+      </div>
+
+      <footer>
+        &copy 2019 yukiue
+      </footer>
+    </div>
   </body>
 </html>
