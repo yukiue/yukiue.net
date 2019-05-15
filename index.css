@@ -16,6 +16,15 @@ body {
   padding: 0;
   margin: 0;
 }
+header {
+  background-color: red;
+  width: 100vw;
+  height: 64px;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  font-family: "Sawarabi Mincho", sans-serif;
+}
 img {
   width: 100px;
   height: auto;
@@ -29,13 +38,15 @@ h1::after {
   color: #888888;
 }
 h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #364e96; /*文字色*/
   padding: 0.5em 0; /*上下の余白*/
   border-top: solid 3px red; /*上線*/
   border-bottom: solid 3px red; /*下線*/
 }
-
+h2 {
+  font-size: 1.5rem;
+}
 .wrapper {
   min-height: 100vh;
   position: relative;
